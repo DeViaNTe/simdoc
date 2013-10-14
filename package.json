@@ -1,0 +1,39 @@
+{
+  "name": "simdoc",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "José Luis Santos Pérez <deviante@gmail.com>",
+  "description": "parse source files and generate documentation in a simple way",
+  "contributors": [{
+    "name": "Luis Monsalve Carrasquilla",
+    "email": "drmonsalve@gmail.com"
+  }],
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "simdoc": "./bin/simdoc"
+  },
+  "scripts": {
+    "start": "node ./bin/simdoc",
+    "test": "node test/test.js"
+  },
+  "main": "./lib/simdoc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeViaNTe/simdoc.git"
+  },
+  "keywords": ["cli", "doc", "generation", "doxygen", "docs", "documentation", "phpdocumentor"],
+  "dependencies": {
+    "glob": "~3.2.6",
+    "markdown" : "~0.5.0"
+  },
+  "devDependencies": {},
+  "licenses": [{
+    "type": "GPLv2",
+    "url": "https://github.com/DeViaNTe/simdoc/blob/master/LICENSE"
+  }],
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
